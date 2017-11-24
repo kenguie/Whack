@@ -12,6 +12,7 @@
 		7CCA4D6E1FC8BB8000ECC702 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CCA4D6C1FC8BB8000ECC702 /* Main.storyboard */; };
 		7CCA4D701FC8BB8000ECC702 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CCA4D6F1FC8BB8000ECC702 /* Assets.xcassets */; };
 		7CCA4D731FC8BB8000ECC702 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CCA4D711FC8BB8000ECC702 /* LaunchScreen.storyboard */; };
+		7CCA4D811FC8C99F00ECC702 /* Textures in Resources */ = {isa = PBXBuildFile; fileRef = 7CCA4D801FC8C99F00ECC702 /* Textures */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,9 @@
 		7CCA4D6F1FC8BB8000ECC702 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CCA4D721FC8BB8000ECC702 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CCA4D741FC8BB8000ECC702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CCA4D801FC8C99F00ECC702 /* Textures */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Textures; sourceTree = "<group>"; };
+		7CCA4D821FC8CAA000ECC702 /* Jellyfish.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Jellyfish.scn; sourceTree = "<group>"; };
+		7CCA4D831FC8CAC000ECC702 /* GAZ-001 (Rev).scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = "GAZ-001 (Rev).scn"; path = "../../../Dropbox/3dModels/Absolute Gundam/GAZ-001 (Rev).scn"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,14 @@
 			isa = PBXGroup;
 			children = (
 				7CCA4D681FC8BB8000ECC702 /* AppDelegate.swift */,
+				7CCA4D831FC8CAC000ECC702 /* GAZ-001 (Rev).scn */,
+				7CCA4D801FC8C99F00ECC702 /* Textures */,
 				7CCA4D6A1FC8BB8000ECC702 /* ViewController.swift */,
 				7CCA4D6C1FC8BB8000ECC702 /* Main.storyboard */,
 				7CCA4D6F1FC8BB8000ECC702 /* Assets.xcassets */,
 				7CCA4D711FC8BB8000ECC702 /* LaunchScreen.storyboard */,
 				7CCA4D741FC8BB8000ECC702 /* Info.plist */,
+				7CCA4D821FC8CAA000ECC702 /* Jellyfish.scn */,
 			);
 			path = Whack;
 			sourceTree = "<group>";
@@ -123,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CCA4D811FC8C99F00ECC702 /* Textures in Resources */,
 				7CCA4D731FC8BB8000ECC702 /* LaunchScreen.storyboard in Resources */,
 				7CCA4D701FC8BB8000ECC702 /* Assets.xcassets in Resources */,
 				7CCA4D6E1FC8BB8000ECC702 /* Main.storyboard in Resources */,
